@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+
+/* search filter */
+.search_main {
+  width: 80%;
+  display: flex;
+  margin-left: 20px;
+  padding-top: 5px;
+  position: fixed;
+  top: 2;
+  color: #313131;
+}
+
+.form_control {
+  padding-left: 2.375rem;
+  outline: none;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  background-color: #cdd4d4;
+  color: #313131;
+  font-size: 15px;
+  height: 40px;
+  width: 525px;
+
+  border-radius: 5px;
+}
+
+.searchicon {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #313131;
+  font-size: 20px;
+  font-family: "sora";
+}
+.form_control::placeholder {
+  color: #313131;
+  font-size: 30px;
+  font-family: "sora";
+}
+.emptyimg h6 {
+  position: absolute;
+  right: 165px;
+}
+@media screen and (max-width: 786px) {
+  .search_main {
+    width: 50%;
+    margin: 10px;
+  }
+  .form_control {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .search_main {
+    width: 60%;
+    margin: 8px;
+    margin-left: 5px;
+  }
+  .form_control {
+    width: 390px;
+  }
+}
+@media screen and (max-width: 586px) {
+  .search_main {
+    width: 40%;
+    margin: 8px;
+    margin-left: 5px;
+  }
+  .form_control {
+    width: 300px;
+  }
+}
+
+.emptdata_img {
+  margin-top: 0px;
+  padding-top: 0px;
+  text-align: center;
+}
+.no_report {
+  font-family: "sora";
+}
+.pagintion {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.dataempty_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+  height: 320px;
+}
+/* .dataempty_image1 {
+  padding-top: 10px;
+  margin-top: 0px;
+  height: 320px;
+} */
